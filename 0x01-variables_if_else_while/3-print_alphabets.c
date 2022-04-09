@@ -11,9 +11,9 @@ int main(void)
 int c;
 
 for (c = 0; c < 26; ++c)
-printf('a' + c);
+putcha('a' + c);
 for (c = 0; c < 26; ++c)
-printf('A' + c);
+putchar('A' + c);
 
 return (0);
 }
