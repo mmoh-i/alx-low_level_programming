@@ -1,5 +1,5 @@
-#inlude <stdio.h>
-#includ (unistd.h>
+#include <stdio.h>
+#include <unistd.h>
 
 /**
  * main - Entry point
