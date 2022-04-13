@@ -1,22 +1,21 @@
 #include "main.h"
 
 /**
- * main - function that chcks for alphabetic character 
+ * _isalpha - Return 1 if c is a letter. lowercase or uppercase
  *
- * Returns:1 if c is a letter,lowercase or uppercase
- * and  othewise
+ *@c: The int to print
+ * Return: Always 0.
  */
+
 int _isalpha(int c)
+
 {
 
-if (c > 'a' && c < 'z')
-{
-if (c > 'A' && c < 'Z')
+if ((c > 'a' && c < 'z') || (c > 'A' && c < 'Z'))
 {
 return (1);
 }
 
-}
 else
 {
 return (0);
