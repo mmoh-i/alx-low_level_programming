@@ -1,12 +1,14 @@
-#include 'main.h'
+#include "main.h"
+#include <stdio.h>
+
 /**
- * main - check the code
- *
+ * add -prints add two numbers
+ *@a: print int a
+ *@b: print int b
  * Return: Always 0.
  */
+
 int add(int a, int b);
 {
-_putchar (a + b);
-
-return (0);
+return (a + b);
 }
