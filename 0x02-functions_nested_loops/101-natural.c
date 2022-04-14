@@ -1,9 +1,8 @@
 #include <stdio.h>
-
 /**
- * main - Entry Point
+ *main - check for multiples of 3 and 5
  *
- * Return: Always 0
+ *Return: 0 always
  */
 int main(void)
 {
@@ -11,7 +10,7 @@ int x = 1024, y, sum = 0;
 for (y = 0; y < x; y++)
 {
 if ((y % 3 == 0) || (y % 5 == 0))
-}
+{
 sum = sum + y;
 }
 }
