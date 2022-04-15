@@ -11,7 +11,8 @@ int i;
 printf("Infinite loop incoming :(\n");
 
 i = 0;
-/**
+
+/*
  * while (1 < 10)
  * {
  * Infinite loop -No increase of variable
