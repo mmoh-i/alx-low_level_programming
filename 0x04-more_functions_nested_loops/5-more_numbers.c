@@ -1,10 +1,10 @@
 #include "main.h"
-
 /**
  * more_numbers - prints 10 times the numbers, from 0 to 14
  *
  * Return: Always 0.
  */
+
 void more_numbers(void)
 {
 int i;
@@ -26,7 +26,7 @@ second_number = result;
 else
 {
 first_number = result / 10;
-second_numer = result % 10;
+second_number = result % 10;
 _putchar (first_number + '0');
 }
 
