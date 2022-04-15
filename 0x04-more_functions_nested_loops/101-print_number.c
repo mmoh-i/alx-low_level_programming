@@ -1,4 +1,5 @@
 #include "main.h"
+
 /**
  * main - check the code to print numbers
  *
@@ -6,7 +7,6 @@
  */
 void print_number(int n)
 {
-_putchar("int value = %d", n);
-return (0);
+_putchar("%d", n);
 }
 
