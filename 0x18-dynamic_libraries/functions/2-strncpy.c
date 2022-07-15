@@ -1,3 +1,4 @@
+#include "main.h"
 /**
  * *_strncpy - find the length of a string
  * @dest: pointer to the string
