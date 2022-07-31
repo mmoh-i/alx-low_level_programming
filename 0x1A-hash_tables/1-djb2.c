@@ -1,7 +1,4 @@
-#include <stdio.h>
-#include <stdlib.h>
 #include "hash_tables.h"
-#include <string.h>
 
 #define INIT 5381
 #define MULT 33
