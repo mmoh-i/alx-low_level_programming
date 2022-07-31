@@ -12,8 +12,10 @@
  * Return: hash value
  */
 unsigned long int hash_djb2(const unsigned char *str){
-	u_int32_t hash = INIT;
-	char c;
+	u_int32_t hash;
+	int  c;
+
+	hash = INIT;
 	while((c = *str++)){
 		hash = hash * MULT + c;
 	}
